@@ -1,0 +1,127 @@
+.therapist-home {
+  padding-top: var(--navbar-height);
+  display: flex;
+}
+.dashboard-card {
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+}
+.dashboard-header {
+  padding: 10px;
+}
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-icon {
+  margin-right: 10px;
+}
+
+.datetime {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.therapist-details-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Therapist Image */
+.therapist-image img {
+  width: 100%;
+  border-radius: 50%; /* Makes the image round */
+}
+
+/* Therapist Name */
+.therapist-name {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+/* Therapist Specialization */
+.therapist-specialization {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Rating Container */
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.star-icon {
+  color: #ccc; /* Default star color */
+}
+
+.star-icon.filled {
+  color: rgb(255, 174, 0); /* Color for filled stars */
+}
+
+.star-icon.half-filled {
+  color:  rgb(255, 174, 0); ; /* Color for half-filled stars */
+}
+
+
+.rating {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Review Summary */
+.review-summary {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+/* View Reviews Button */
+.view-reviews-btn {
+  background-color: #3d2e2d; /* Blue color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.view-reviews-btn:hover {
+  background-color: #534d4c; /* Darker blue on hover */
+}
+
+/* Additional Info */
+.additional-info {
+  margin-top: 20px;
+}
+
+.additional-info p {
+  margin: 5px 0;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .calendar-container {
+    margin-top: 10px;
+  }
+
+  .calendar-icon {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

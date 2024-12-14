@@ -1,0 +1,81 @@
+.landingPage {
+    padding-top: var(--navbar-height);
+    /* text-align: center; */
+}
+
+.landingPage .hi {
+    color: rgb(70, 30, 30);
+}
+
+.feeling {
+    margin-top: 3vw;
+}
+
+
+.emoji h3 {
+    font-size: 7vw;
+}
+
+.emoji h4 {
+    font-size: 3vw;
+}
+
+
+.ourTherapist h2 {
+    font-size: 3vw;
+}
+
+.licenses{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Therapist Image Styles */
+.therapistImage {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 50%;
+    margin-left: 1%;
+}
+
+.therapistImage:hover {
+    transform: scale(1.05);
+}
+
+/* Therapist Name Styles */
+.therapistName {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Therapist Details Styles */
+.therapistDetails {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* .card-custom-recomended {
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  } */
+  .profile-img:hover {
+    transform: scale(1.05);
+}
+.search-result:hover{
+    background-color: #f0f0f0;
+}

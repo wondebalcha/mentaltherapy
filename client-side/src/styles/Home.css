@@ -1,0 +1,662 @@
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2vw;
+    padding-top: var(--navbar-height);
+}
+.Home-img{
+    display: flex;
+}
+.Home-img img{
+    object-fit: contain;
+    width: 30vw;
+    height: 35vw;
+}
+.Home-Intro-Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Home-img .ellipsetalk{
+    margin-left: 3vw;
+}
+.Home-Intro-Title h3{
+    font-size: 3vw;
+    color: #502828;
+    font-weight: bold;
+    margin-bottom: 1.7vw;
+    margin-top: 5vw;
+}
+.Home-Intro-Title h4{
+    font-size: 1.5vw;
+    color: #403939;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.Home-Intro-Title button{
+    width: 15vw;
+    height: 3.5vw;
+    border: 0.1vw solid #725a5a;
+    border-radius: 1.3vw;
+    background-color: #725a5a;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 1vw;
+}
+.languageForTranslate{
+    width: 10px;
+    height: 1px !important;
+}
+/*Frequently Asked Question*/
+.Faq{
+    background-image: url("../Images/home/FaqContainer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:max-content;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+
+}
+.Faq h1{
+    margin-left: 8vw;
+    position: relative;
+    font-size: 2.8vw;
+    top: 4.6vw;
+    margin-bottom: 9vw;
+}
+.Faq .faq-even{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    width:50vw;
+}
+.Faq .faq-odd{
+    display: flex;
+    align-items: center;
+    margin-left: 45vw;
+    margin-bottom: 3vw;
+    text-align: left;
+    width:50vw;
+   
+}
+.Faq .faq-number{
+    font-size: 3vw;
+    font-weight: bold;
+    margin-right:1.3vw;
+}
+.Faq .faq-question{
+    margin-bottom: 1.2vw;
+    font-size: 1.3vw;
+    font-weight:600;
+}
+.Faq .faq-answer{
+    font-size: 1.1vw;
+}
+/*About Us*/
+
+.AboutUs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -5vw;
+}
+.AboutUs .AboutUs-title h2{
+    font-size: 3vw;
+    width: 25vw;
+    margin-left: 15vw;
+}
+.AboutUs .AboutUs-title h3{
+    text-align: left;
+    margin-left: 5vw;
+    width: 53vw;
+    font-size: 1.5vw;
+    color: #4F3F3F;
+}
+.AboutUs-img{
+    display: flex;
+    flex-direction: column;
+}
+.AboutUs-img .peopleBean{
+    height: 45vw;
+    object-fit: contain;
+    margin-right: 5vw;
+    margin-top: 1vw;
+}
+.AboutUs-img .AboutImg{
+    position: relative;
+    right: 10vw;
+    object-fit: contain;
+}
+.AboutUs-info .About-why h2{
+    font-size: 2vw;
+    margin: 1vw 0vw 2vw 3vw;
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.About-why .why-even{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgb(204, 198, 198);
+    width: 35vw;
+    margin-left: 7vw;
+    margin-bottom: 2vw;
+    padding-left: 2vw;
+}
+.About-why .why-odd{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    box-shadow:  0.1vw 0.1vw 0.1vw 0.1vw rgb(204, 198, 198);
+    width: 33vw;
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    padding-left: 2vw;
+}
+.About-why .tickbox{
+    width: 1.8vw;
+    height: 1.8vw;
+    object-fit: contain;
+}
+.why-reason-desc{
+    width: 27vw;
+    margin-left: 1.3vw;
+    padding: 0.3vw;
+    
+}
+.why-reason-desc .reason{
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+}
+.why-reason-desc .description{
+    font-weight: 350;
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+}
+/*Contact Us*/
+.ContactUs{
+    background-image: url("../Images/home/RoadAbout.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ContactUs img{
+    width: 35vw;
+    height: 35vw;
+    margin-top: 30vw;
+    margin-right: -3vw;
+}
+.ContactUs .ContactUs-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15vw;
+    margin-top: 20vw;
+}
+.ContactUs .ContactUs-form h2{
+    font-size: 3vw;
+}
+.ContactUs .ContactUs-form h3{
+    font-size: 1.8vw;
+    width: 50vw;
+    margin-bottom: 3vw;
+    text-align: left;
+    font-family: "Irish Grover", system-ui;
+}
+.ContactUs .ContactUs-form form{
+    display: flex;
+    flex-direction: column;
+}
+.ContactUs .ContactUs-form form input{
+    font-size: 1vw;
+    width: 45vw;
+    height: 3.2vw;
+    margin-bottom: 3vw;
+    text-indent: 1.5vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid #857D7D;
+}
+.ContactUs .ContactUs-form form .message{
+    font-size: 1vw;
+    width: 45vw;
+    height: 18vw;
+    padding-top: 1.3vw;
+    margin-bottom: 3vw;
+    text-indent: 1.5vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid #857D7D;
+    resize: none;
+}
+.ContactUs .ContactUs-form form .sendButton{
+    height: 3vw;
+    border-radius: 1.3vw;
+    border: none;
+    background-color: #745555;
+    font-size: 1.5vw;
+    color: white;
+    margin-bottom: 1.7vw;
+    cursor: pointer;
+}
+
+/* Media query for screens smaller than 768px */
+@media (min-width: 380px) and (max-width: 768px) {
+    .Home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+        padding-top: 10vw;
+    }
+
+    .Home-img img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .Home-img .ellipsetalk {
+        margin-left: 0;
+        margin-top: 2vw;
+    }
+
+    .Home-Intro-Title h3 {
+        text-align: center;
+        font-size: 5vw;
+        margin-top: 3vw;
+    }
+
+    .Home-Intro-Title h4 {
+        font-size: 3vw;
+    }
+
+    .Home-Intro-Title button {
+        width: 50vw;
+        height: 8vw;
+        margin-left: 19vw;
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+}
+
+/* FAQ */
+@media (min-width: 380px) and (max-width: 768px) {
+    .Faq h1 {
+        font-size: 6vw;
+        top: 10vw;
+        text-align: center;
+        margin-bottom: 20vw;
+    }
+
+    .Faq .faq-even,
+    .Faq .faq-odd {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .Faq .faq-number {
+        font-size: 5vw;
+    }
+
+    .Faq .faq-question {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+
+    .Faq .faq-answer {
+        font-size: 3vw;
+    }
+}
+
+/* About Us */
+@media (min-width: 380px) and (max-width: 768px) {
+    .AboutUs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About-info {
+        /* Styles for About info content */
+        margin-bottom: 3vw; 
+    }
+
+    .AboutUs .AboutUs-title h2 {
+        font-size: 6vw; 
+        width: auto; 
+        margin-left: 0; 
+        text-align: center;
+        margin-bottom: 2vw; 
+    }
+
+    .AboutUs .AboutUs-title h3 {
+        width: 100%; 
+        font-size: 3vw; 
+        margin-left: 0; 
+        padding-left: 3vw;
+        margin-bottom: 3vw; 
+    }
+
+    .AboutUs-img {
+        margin-top: 3vw; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutUs-img .peopleBean {
+        height: 70vw; 
+        max-width: 90%; 
+        object-fit: contain;
+        margin-bottom: 1vw; 
+    }
+
+    .AboutUs-img .AboutImg {
+        position: relative;
+        right: 0; 
+        object-fit: contain;
+        width: 80%; 
+        margin-top: 1vw; 
+    }
+
+
+
+    .AboutUs-info .About-why h2 {
+        font-size: 3vw; 
+        margin: 2vw 0 3vw 0; 
+        width: 90vw; 
+    }
+
+    .About-why .why-even,
+    .About-why .why-odd {
+        width: 100%; 
+        margin-left: 1vw; 
+    }
+
+    .why-reason-desc {
+        width: 90vw; 
+        margin-left: 0; 
+    }
+
+    .why-reason-desc .reason,
+    .why-reason-desc .description {
+        font-size: 3vw; 
+        margin-bottom: 1vw; 
+    }
+}
+
+/* ContactUs */
+@media (min-width: 380px) and (max-width: 768px) {
+    .ContactUs {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1vw;
+        padding: 5vw 0; 
+    }
+
+    .ContactUs img {
+        order: 2;
+        width: 50vw; 
+        height: auto; 
+        margin-top: 2vw;  
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .ContactUs .ContactUs-form {
+        margin: 2vw 0; 
+    }
+
+    .ContactUs .ContactUs-form h2 {
+        font-size: 5vw; 
+        margin-bottom: 3vw; 
+    }
+
+    .ContactUs .ContactUs-form h3 {
+        font-size: 3vw; 
+        width: 90%; 
+        margin-bottom: 3vw; 
+        text-align: center; 
+    }
+
+    .ContactUs .ContactUs-form form input{
+        font-size: 3vw; 
+        width: 70vw; 
+        height: 1vw; 
+        margin-bottom: 3vw; 
+        padding: 4vw; 
+        text-indent: 0; 
+    }
+    .ContactUs .ContactUs-form form .message {
+        font-size: 3vw; 
+        width: 100%; 
+        height: 15vw; 
+        margin-bottom: 5vw; 
+        padding: 3vw; 
+        text-indent: 0; 
+    }
+
+    .ContactUs .ContactUs-form form .sendButton {
+        height: 7vw; 
+        font-size: 2vw; 
+        padding: 2vw 5vw; 
+        margin-bottom: 5vw; 
+    }
+}
+
+/* responsive for i phone */
+@media (max-width: 380px) {
+    .Home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+        padding-top: 10vw;
+    }
+
+    .Home-img img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .Home-img .ellipsetalk {
+        margin-left: 0;
+        margin-top: 2vw;
+    }
+
+    .Home-Intro-Title h3 {
+        font-size: 5vw;
+        margin-top: 3vw;
+    }
+
+    .Home-Intro-Title h4 {
+        font-size: 4vw;
+    }
+
+    .Home-Intro-Title button {
+        width: 50vw;
+        height: 9vw;
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+}
+
+/* FAQ */
+@media (max-width: 380px) {
+    .faq{
+        box-shadow: 1vw 1vw 2vw 1vw rgba(0, 0, 0, 0.2);
+    }
+    .Faq h1 {
+        font-size: 8vw;
+        top: 13vw;
+        margin-bottom: 20vw;
+    }
+    .Faq .faq-even,
+    .Faq .faq-odd {
+        padding: 2vw;
+        width: 88vw;
+        border-radius: 2vw;
+        box-shadow: 0 1vw 2vw 1vw rgba(0, 0, 0, 0.2);
+        margin-left: 4vw;
+    }
+
+    .Faq .faq-number {
+        display: none;
+    }
+
+    .Faq .faq-question {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    .Faq .faq-answer {
+        padding-left: 4vw;
+        font-size: 4vw;
+    }
+}
+
+/* About Us */
+@media (max-width: 380px) {
+    .AboutUs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About-info {
+        /* Styles for About info content */
+        margin-bottom: 3vw; 
+    }
+
+    .AboutUs .AboutUs-title h2 {
+        font-size: 8vw; 
+        width: auto; 
+        margin-left: 0; 
+        margin-bottom: 2vw; 
+    }
+
+    .AboutUs .AboutUs-title h3 {
+        box-shadow: 0 1vw 2vw 1vw rgba(255, 0, 0, 0.2);
+        padding: 2vw;
+        width: 99%; 
+        margin-left: 0.5vw;            
+        font-size: 5.5vw; 
+        margin-left: 0; 
+        text-align: center; 
+        margin-bottom: 3vw; 
+    }
+
+    .AboutUs-img {
+        margin-top: 4vw; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutUs-img .peopleBean {
+        height: 70vw; 
+        max-width: 90%; 
+        object-fit: contain;
+        margin-bottom: 2vw; 
+    }
+
+    .AboutUs-img .AboutImg {
+        position: relative;
+        right: 0; 
+        object-fit: contain;
+        width: 80%; 
+        margin-top: 2vw; 
+    }
+
+
+
+    .AboutUs-info .About-why h2 {
+        font-size: 5vw; 
+        margin: 3vw 1vw 4vw 1vw; 
+        width: 90vw; 
+    }
+
+    .About-why .why-even,
+    .About-why .why-odd {
+        width: 100%; 
+        margin-left: 1vw; 
+    }
+
+    .why-reason-desc {
+        width: 90vw; 
+        font-size: 5vw;
+        margin-left: 2vw; 
+    }
+
+    .why-reason-desc .reason,
+    .why-reason-desc .description {
+        font-size: 4vw; 
+        margin-bottom: 2vw; 
+    }
+}
+
+/* ContactUs */
+@media (max-width: 380px) {
+    .ContactUs {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1vw;
+        padding: 5vw 0; 
+    }
+
+    .ContactUs img {
+        order: 2;
+        width: 63vw; 
+        height: auto; 
+        margin-top: 5vw;  
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .ContactUs .ContactUs-form {
+        margin: 5vw 0; 
+    }
+
+    .ContactUs .ContactUs-form h2 {
+        font-size: 7vw; 
+        margin-bottom: 3vw; 
+    }
+
+    .ContactUs .ContactUs-form h3 {
+        font-size: 5vw; 
+        box-shadow: 0 0 2vw 0 rgba(255, 0, 0, 0.2);
+        padding: 2vw;
+        width: 90%; 
+        margin-bottom: 3vw; 
+        text-align: center; 
+    }
+
+    .ContactUs .ContactUs-form form input{
+        font-size: 4vw; 
+        width: 80vw; 
+        height: 1vw; 
+        margin-bottom: 5vw; 
+        padding: 4vw; 
+        text-indent: 0; 
+    }
+    .ContactUs .ContactUs-form form .message {
+        font-size: 4vw; 
+        width: 100%; 
+        height: 15vw; 
+        margin-bottom: 5vw; 
+        padding: 4vw; 
+        text-indent: 0; 
+    }
+
+    .ContactUs .ContactUs-form form .sendButton {
+        height: 8vw; 
+        font-size: 3vw; 
+        padding: 2vw 12vw; 
+        margin-bottom: 4vw; 
+    }
+}

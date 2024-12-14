@@ -1,0 +1,9 @@
+.video-chat{
+    padding-top: var(--navbar-height);
+}
+.wellcome-video{
+    font-size: 2vw;
+    font-weight: lighter;
+    color: rgb(197, 193, 193);
+    margin-bottom: 0;
+}

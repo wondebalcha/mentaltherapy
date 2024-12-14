@@ -1,0 +1,273 @@
+:root {
+  --navbar-height: 7vw; /* Initial navbar height */
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7vw;
+  background-color: #7b6565;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  text-align: center;
+}
+.navBar .navImgName {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.navBar .navImgName .bunnaLogo {
+  width: max-content;
+  height: 5vw;
+  margin-bottom: -0.5vw;
+}
+.navBar .navImgName .bunnaName {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vw;
+  /* color: #683030; */
+  color: #ffffff;
+}
+.navBar .navButton .navButtonFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navBar .navButton .navButtonFlex .logoutButton {
+  cursor: pointer;
+  font-size: 1.2vw;
+}
+.navBar .navButton .navButtonFlex .loginButton,
+.navBar .navButton .navButtonFlex .logoutButton {
+  width: 5vw;
+  height: 2.2vw;
+  font-size: 1.2vw;
+  border: 0.1vw solid white;
+  border-radius: 1vw;
+  padding: 0.2vw;
+  cursor: pointer;
+  color: white;
+}
+.navBar .navButton .navButtonFlex .registerButton {
+  width: 5.2vw;
+  height: 2.2vw;
+  font-size: 1.2vw;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 0.3vw;
+  cursor: pointer;
+  align-items: center;
+  color: #683030;
+  margin-left: 1.7vw;
+}
+
+.navLinkFlex {
+  display: flex;
+  align-items: center;
+}
+.navLinkFlex h3 {
+  font-size: 1.2vw;
+  margin-right: 2vw;
+  color: white;
+  cursor: pointer;
+}
+.navButtonFlex Img {
+  width: 3vw;
+  height: 3vw;
+}
+.navButtonFlex h5 {
+  font-size: 1.2vw;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.profile-button,
+.notification,
+.community-space,
+.message-box {
+  margin-right: 1.5vw;
+  position: relative;
+}
+.badge_notification,
+.badge_message {
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  background-color: rgb(196, 85, 85);
+  color: white;
+  border-radius: 50%;
+  padding: 1px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* Custom CSS */
+.custom-toggle-button {
+  background-color: #6b2408; /* Change background color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px 10px; /* Add padding */
+  font-size: 20px; /* Adjust font size */
+}
+
+.custom-toggle-button .icon {
+  color: white; /* Change icon color */
+}
+.navbar-toggler {
+  background-color: beige; /* Set the background color to beige */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 5px 10px; /* Add padding for better spacing */
+  font-size: 20px; /* Adjust the font size if needed */
+  color: #683030; /* Change the icon color to match the navbar's text color */
+}
+.navbar-toggler .fa-bars {
+  color: #683030; /* Ensure the icon color matches the text color */
+}
+
+/* Offcanvas Styles */
+.offcanvas{
+    z-index: 2000;
+}
+.offcanvas .offcanvas-header {
+  background-color: #7b6565;
+  color: white;
+}
+
+.offcanvas .offcanvas-title {
+  font-size: 1.5rem;
+}
+
+.offcanvas .offcanvas-body {
+  background-color: #6e5b5b;
+  color: white;
+}
+
+.offcanvas .offcanvas-body a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.offcanvas .offcanvas-body a:hover {
+  background-color: #7d6c6c;
+}
+
+.offcanvas .offcanvas-body .notification,
+.offcanvas .offcanvas-body .message-box,
+.offcanvas .offcanvas-body .community-space,
+.offcanvas .offcanvas-body .profile-button,
+.offcanvas .offcanvas-body .menu-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.offcanvas .offcanvas-body h5 {
+  margin: 0;
+}
+.offcanvas .offcanvas-body .logoutButton {
+  margin-left: 0;
+  padding: 10px;
+}
+.offcanvas .offcanvas-body .logoutButton:hover {
+  background-color: #7d6c6c;
+}
+
+.badge_notification,
+.badge_message {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.custom-toggle-button .icon {
+  color: white;
+}
+
+/* Additional Styles for Dropdown */
+.custom-toggle-button {
+  background-color: #343a40;
+  border: none;
+}
+
+.custom-toggle-button:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  background-color: #473434;
+  color: white;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #7d6c6c;
+}
+
+/* Media queries */
+@media (max-width: 992px) {
+  :root {
+    --navbar-height: 15vw; /* Adjusted navbar height for smaller screens */
+  }
+  .navBar {
+    height: 15vw; /* Set height to auto to allow content to dictate height */
+    padding: 1.5rem 0; /* Adjust padding for better spacing */
+  }
+
+  .navImgName {
+    margin-top: 4vw;
+    margin-bottom: 1rem;
+    margin-left: 3vw; /* Add some margin at the bottom for better spacing */
+  }
+
+  .navBar .navImgName .bunnaLogo {
+    width: max-content;
+    height: 10vw; /* Allow the logo to adjust its height as needed */
+  }
+
+  .navBar .navImgName .bunnaName {
+    font-size: 2vw;
+    margin-left: 1vw;
+    color: beige; /* Increase font size for better readability */
+  }
+
+  .navBar .navButton .navButtonFlex {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block;
+    background-color: beige;
+    margin-right: 3vw;
+  }
+  .navLinkFlex h3 {
+    font-size: 15px;
+    margin-left: 2vw;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .navImgName .bunnaLogo {
+    width: 150px;
+    height: 150px; /* Allow the logo to adjust its height as needed */
+  }
+}

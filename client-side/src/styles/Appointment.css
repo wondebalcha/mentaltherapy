@@ -1,0 +1,6 @@
+.d-none {
+    display: none !important;
+  }
+  .date-picker-popper {
+    z-index: 999 !important; /* Ensure it's below the toggle button */
+  }

@@ -1,0 +1,36 @@
+.profile-page {
+  margin-top: 2vw;
+  padding-top: var(--navbar-height);
+}
+
+@media (max-width:540px){
+  .profile-contianer{
+    /* border: 1px solid black; */
+  }
+  .profile-pic-container{
+    /* border: 1px solid black; */
+
+  }
+  .profile-pic-info{
+    width: 200px; 
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left: 2%;
+  }
+  .profile-pic-info .profile-pic-info-header img{
+    object-fit: contain;
+  }
+  .profile-input-column{
+    width: 100%;
+  }
+  .profile-input{
+    width: 150%;
+  }
+  .profile-button{
+    width: 100%;
+    font-size: 12px;
+  }
+  .profile-data-header h6{
+    font-size: 12px;
+  }
+}

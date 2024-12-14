@@ -1,0 +1,11 @@
+.note-card:hover {
+   background-color: #f8f9fa;
+  }
+  .note-card {
+   width: 100%;
+ }
+ 
+ .note-text {
+   text-align: justify;
+   text-justify: inter-word;
+ }

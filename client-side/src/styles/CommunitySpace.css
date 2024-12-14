@@ -1,0 +1,10 @@
+.CommunitySpace {
+  margin-top: 2vw;
+  padding-top: var(--navbar-height);
+  padding-left:0vw ;
+  
+}
+.trash:hover{
+  color: rgba(248, 2, 2, 0.438);
+
+}

@@ -1,0 +1,108 @@
+.view-therapist {
+  padding-top: 7vw;
+  /* text-align: center; */
+}
+
+
+.custom-btn i {
+  font-size: 20px;
+}
+
+.card-custom-profile {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+.star-rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+.star-rating span {
+  background-color: #f7df5ba4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.profile-img {
+  width: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid black;
+}
+.speciality {
+  background-color: #e0e7ff;
+  color: #4a4a4a;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.footer-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* RateCard.css */
+.card-custom-rating {
+  border-radius: 15px;
+  width: 90%;
+  text-align: center;
+  background-color: #ffffff;
+  left: 5%;
+}
+
+.card-title-view {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.rate-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.rate-group textarea,
+.rate-group input[type="radio"] {
+  margin-top: 10px;
+}
+
+.rating-options {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.rating-label {
+  margin-right: 10px;
+}
+
+.rating-label input {
+  margin-right: 5px;
+}
+
+.btn-success-rating  {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success-rating :hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+
+textarea {
+  resize: none;
+}
+
+textarea:focus,
+input[type="radio"]:focus {
+  outline: 2px solid #28a745;
+  outline-offset: 2px;
+}

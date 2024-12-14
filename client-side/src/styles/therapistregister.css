@@ -1,0 +1,305 @@
+.registerTherapist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.registerTherapist .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--navbar-height);
+  padding-bottom: 23px;
+}
+.registerTherapist .container .welcome-title {
+  background-color: #fffdfd;
+  font-size: 1.5vw;
+}
+.registerTherapist .container .welcome-title h3 {
+  font-size: 3vw;
+  color: #502828;
+}
+.registerTherapist .container .welcome-title h4 {
+  font-size: 2vw;
+  color: #502828;
+}
+.reg-thera-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+}
+.reg-thera-form .reg-thera-card-header {
+  width: 50vw;
+  padding: 3vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  box-shadow: 0.1vw 0.1vw 1vw 0.1vw rgb(204, 198, 198);
+  margin-bottom: 1vw;
+}
+.reg-thera-form .reg-thera-card-header h3 {
+  font-size: 2.5vw;
+}
+.reg-thera-form form {
+  padding: 3vw 1vw 3vw 1vw;
+  width: 50vw;
+  box-shadow: 0.1vw 0.1vw 1vw 0.1vw rgb(204, 198, 198);
+}
+.reg-thera-form form input {
+  margin-bottom: 2vw;
+  width: 100%;
+  height: 4vw;
+}
+.form-outline .formSelect {
+  width: 100%;
+  padding-left: 0.5vw;
+  font-size: 1.1vw;
+  height: 4vw;
+  background-clip: padding-box;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-color: #ced4da;
+  border-radius: 0.57vw;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  line-height: 1.5vw;
+}
+.reg-thera-form form select {
+  margin-bottom: 2.5vw;
+  width: 100%;
+  height: 2.7vw;
+}
+
+#first-name,
+#email-address,
+#password,
+#gender,
+#martial-status,
+#city,
+#phonenumber,
+#experience {
+  margin-right: 1vw;
+}
+
+.reg-thera-form form select label {
+  padding-left: -4vw;
+  width: fit-content;
+}
+.reg-thera-form form button {
+  height: 4vw;
+  border-radius: 1.3vw;
+  border: none;
+  background-color: #665b5b;
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.5vw;
+}
+.d-registerThera {
+  display: flex;
+  gap: 1rem; /* Adjust the gap as needed */
+}
+
+.input-container {
+  flex: 1; /* Make input containers flexible */
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem; /* Stack error message and input vertically */
+}
+
+.text-danger {
+  margin-bottom: 0.5rem; /* Space between error message and input */
+}
+
+.input-container {
+  position: relative;
+}
+
+.error-message {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 100%;
+  color: red;
+  font-size: 1.2rem;
+}
+.input-container .invalid-feedback {
+  display: block;
+}
+
+.input-container .is-invalid {
+  position: relative;
+}
+
+.input-container .is-invalid + .invalid-feedback {
+  position: absolute;
+  top:-30%;
+  left: 0;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #dc3545; /* Bootstrap's default invalid color */
+}
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .custom-checkbox::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .custom-checkbox:checked::before {
+    background: #5e4e4b; /* Your custom color */
+    border-color: #5e4e4b; /* Your custom color */
+  }
+  
+  .custom-checkbox:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .reg-thera-form,
+  .reg-thera-form .reg-thera-card-header,
+  .reg-thera-form form {
+    padding: 4vw;
+    width: 70vw;
+  }
+  .reg-thera-card-header {
+    padding: 2vw;
+  }
+  .form-control {
+    font-size: 1.5vw;
+    height: 4.5vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  .form-outline .formSelect {
+    width: 100%;
+    padding-left: 1.5vw;
+    font-size: 1.5vw;
+    height: 4.5vw;
+    color: rgb(53, 48, 48);
+    background-clip: padding-box;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #ced4da;
+    border-radius: 0.57vw;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    line-height: 1.5vw;
+  }
+  .form-control[type="file"] {
+    padding-bottom: 3vw;
+    font-size: 2vw;
+  }
+
+  label {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .reg-thera-form,
+  .reg-thera-form .reg-thera-card-header,
+  .reg-thera-form form {
+    padding: 4vw;
+    width: 80vw;
+  }
+  .reg-thera-card-header {
+    padding: 2vw;
+  }
+  .form-outline {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control {
+    font-size: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .form-outline .formSelect {
+    width: 100%;
+    padding-left: 1.5vw;
+    font-size: 2vw;
+    height: 6vw;
+    color: rgb(53, 48, 48);
+    background-clip: padding-box;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #ced4da;
+    border-radius: 0.57vw;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    line-height: 1.5vw;
+  }
+  .form-control[type="file"] {
+    padding-bottom: 3vw;
+    font-size: 2vw;
+  }
+
+  label {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .reg-thera-form,
+  .reg-thera-form .reg-thera-card-header,
+  .reg-thera-form form {
+    width: 85vw;
+  }
+  .reg-thera-card-header {
+    padding: 2vw;
+  }
+  .form-outline {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control {
+    font-size: 2.5vw;
+    padding-top: 3.5vw;
+    padding-bottom: 3.5vw;
+  }
+  .form-outline .formSelect {
+    width: 100%;
+    padding-left: 1.5vw;
+    font-size: 2vw;
+    height: 8vw;
+    color: rgb(53, 48, 48);
+    background-clip: padding-box;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #ced4da;
+    border-radius: 0.57vw;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    line-height: 1.5vw;
+  }
+  .form-control[type="file"] {
+    padding-bottom: 3.5vw;
+    font-size: 2vw;
+  }
+
+  label {
+    margin-right: 0;
+  }
+}
